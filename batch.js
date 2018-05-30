@@ -3,7 +3,7 @@ var util =require('util');
 var fs = require('fs');
 //var file = "./accounts.txt";  
  var file = "./accounts/accounts00.json"; 
-var TOTAL=99;
+var TOTAL=100;
 var INDEX=0;
 function writeFile(file, content){  
     //console.log(content);  
