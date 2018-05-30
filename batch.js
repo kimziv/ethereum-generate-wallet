@@ -1,8 +1,9 @@
 var process = require('child_process');
 var util =require('util');
 var fs = require('fs');
-
-var TOTAL=10;
+//var file = "./accounts.txt";  
+ var file = "./accounts00.json"; 
+var TOTAL=100;
 var INDEX=0;
 function writeFile(file, content){  
     //console.log(content);  
@@ -34,8 +35,7 @@ function createAccount(shell){
     }
 });
 }
-//var file = "./accounts.txt";  
- var file = "./accounts00.json";  
+ 
 writeFile(file,"[");
 
 for (var i = 0; i <TOTAL; i++) {
