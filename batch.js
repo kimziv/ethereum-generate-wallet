@@ -1,4 +1,3 @@
-var AschJS = require('asch-js');
 var process = require('child_process');
 var util =require('util');
 var fs = require('fs');
